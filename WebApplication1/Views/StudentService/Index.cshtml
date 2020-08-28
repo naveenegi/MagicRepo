@@ -1,0 +1,35 @@
+﻿@model List<WebApplication1.Models.Service>
+@{
+    ViewData["Title"] = "Service";
+}
+
+<div><b>student information with service name</b><br /></div>
+@if (Model != null)
+{
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>Service Id </th>
+            <th>Service Name </th>
+            <th>SchoolYear </th>
+            <th>StartDate </th>
+            <th>EndDate </th>
+
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ServiceId</td>
+                <td>@item.ServiceName</td>
+                <td>@item.SchoolYear</td>
+                <td>@item.StartDate.ToString("{0:MM/dd/yyyy}")</td>
+                <td>@item.EndDate.ToString("{0:MM/dd/yyyy}")</td>
+
+
+
+
+            </tr>
+
+        }
+    </table>
+}

@@ -1,0 +1,36 @@
+﻿@model List<WebApplication1.Models.Enrollment>
+@{
+    ViewData["Title"] = "Enrollment";
+}
+
+<div><b>student information with enrollment</b><br /></div>
+
+@if (Model != null)
+{
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>Enrollment Id </th>
+            <th>SchoolYear </th>
+            <th>StartDate </th>
+            <th>EndDate </th>
+
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EnrollmentId</td>
+                <td>@item.SchoolYear</td>
+                <td>@item.StartDate.ToString("{0:MM/dd/yyyy}")</td>
+                <td>@item.EndDate.ToString("{0:MM/dd/yyyy}")</td>
+
+
+
+
+            </tr>
+
+        }
+    </table>
+}
+
+

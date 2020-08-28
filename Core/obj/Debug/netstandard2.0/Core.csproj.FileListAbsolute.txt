@@ -1,0 +1,8 @@
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\Ansuya\Desktop\Naveen\Testonline\Magic_Test\Core\obj\Debug\netstandard2.0\Core.pdb
